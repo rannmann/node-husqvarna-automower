@@ -158,7 +158,6 @@ HMower.prototype.sendCommand = function (action, callback) {
         return false;
     }
 
-    console.log(this.command[action]);
     request({
         url: this.trackUrl + 'mowers/' + this.mower.id + '/control',
         method: "POST",
@@ -169,10 +168,8 @@ HMower.prototype.sendCommand = function (action, callback) {
         }
     }, (error, response, body) => {
         if (error || response.statusCode !== 200) {
-            console.log(body);
             callback(error, response);
         } else {
-            console.log(body);
             callback(false);
         }
     });
