@@ -3,4 +3,5 @@ var config = {
 	password: ""
 };
 
+// noinspection Annotator
 module.exports = config;

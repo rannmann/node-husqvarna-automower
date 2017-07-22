@@ -1,7 +1,7 @@
 {
   "name": "husqvarna-automower",
-  "version": "0.0.1",
-  "description": "API for the Husqvarna Automower",
+  "version": "0.1.0",
+  "description": "Library to consume the Husqvarna Automower API",
   "keywords": [
     "Husqvarna",
     "Automower",
@@ -16,7 +16,6 @@
     "url": "https://github.com/rannmann/node-husqvarna-automower"
   },
   "dependencies": {
-    "request": "^2.81.0",
-    "events": "^3.8.9"
+    "request": "^2.81.0"
   }
 }
