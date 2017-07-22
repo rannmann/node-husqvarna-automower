@@ -1,0 +1,22 @@
+{
+  "name": "husqvarna-automower",
+  "version": "0.0.1",
+  "description": "API for the Husqvarna Automower",
+  "keywords": [
+    "Husqvarna",
+    "Automower",
+    "Auto mower"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/rannmann/node-husqvarna-automower",
+  "author": "Jake Forrester",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rannmann/node-husqvarna-automower"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "events": "^3.8.9"
+  }
+}
